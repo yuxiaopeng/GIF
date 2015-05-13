@@ -1,0 +1,16 @@
+PODS:
+  - AnimatedGIFImageSerialization (0.2.0)
+  - FLAnimatedImage (1.0.8)
+  - YLGIFImage (0.11)
+
+DEPENDENCIES:
+  - AnimatedGIFImageSerialization
+  - FLAnimatedImage (~> 1.0)
+  - YLGIFImage
+
+SPEC CHECKSUMS:
+  AnimatedGIFImageSerialization: b0f0cfe71eac1ee45a3d57ae533c23b8e6f29501
+  FLAnimatedImage: f9422f796135aff80d8c00b2afc48015bb746e24
+  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
+
+COCOAPODS: 0.37.1

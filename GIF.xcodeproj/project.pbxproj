@@ -14,6 +14,10 @@
 		D873EBFE1B02FBE40047D312 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D873EBFD1B02FBE40047D312 /* Images.xcassets */; };
 		D873EC011B02FBE40047D312 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D873EBFF1B02FBE40047D312 /* LaunchScreen.xib */; };
 		D873EC0D1B02FBE40047D312 /* GIFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D873EC0C1B02FBE40047D312 /* GIFTests.m */; };
+		D87C10F41B0323AA00363AAD /* storm.gif in Resources */ = {isa = PBXBuildFile; fileRef = D87C10F31B0323AA00363AAD /* storm.gif */; };
+		D87C10F61B03290500363AAD /* animated.gif in Resources */ = {isa = PBXBuildFile; fileRef = D87C10F51B03290500363AAD /* animated.gif */; };
+		D87C10F81B03297600363AAD /* village.gif in Resources */ = {isa = PBXBuildFile; fileRef = D87C10F71B03297600363AAD /* village.gif */; };
+		DCEFC79A6022F54B3E5F6B37 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96570189C7FF4216F04C5A9F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16379D3C060C80672A258C26 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3A5748229BB89925D86E87FF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		96570189C7FF4216F04C5A9F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D873EBED1B02FBE40047D312 /* GIF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D873EBF11B02FBE40047D312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D873EBF21B02FBE40047D312 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,9 @@
 		D873EC061B02FBE40047D312 /* GIFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D873EC0B1B02FBE40047D312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D873EC0C1B02FBE40047D312 /* GIFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFTests.m; sourceTree = "<group>"; };
+		D87C10F31B0323AA00363AAD /* storm.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = storm.gif; sourceTree = "<group>"; };
+		D87C10F51B03290500363AAD /* animated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animated.gif; sourceTree = "<group>"; };
+		D87C10F71B03297600363AAD /* village.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = village.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEFC79A6022F54B3E5F6B37 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39C39064B9529644CA580F58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16379D3C060C80672A258C26 /* Pods.debug.xcconfig */,
+				3A5748229BB89925D86E87FF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2D269E18B0597E8340D9BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96570189C7FF4216F04C5A9F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D873EBE41B02FBE40047D312 = {
 			isa = PBXGroup;
 			children = (
 				D873EBEF1B02FBE40047D312 /* GIF */,
 				D873EC091B02FBE40047D312 /* GIFTests */,
 				D873EBEE1B02FBE40047D312 /* Products */,
+				39C39064B9529644CA580F58 /* Pods */,
+				A2D269E18B0597E8340D9BD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +126,9 @@
 		D873EBF01B02FBE40047D312 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D87C10F71B03297600363AAD /* village.gif */,
+				D87C10F51B03290500363AAD /* animated.gif */,
+				D87C10F31B0323AA00363AAD /* storm.gif */,
 				D873EBF11B02FBE40047D312 /* Info.plist */,
 				D873EBF21B02FBE40047D312 /* main.m */,
 			);
@@ -126,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D873EC101B02FBE40047D312 /* Build configuration list for PBXNativeTarget "GIF" */;
 			buildPhases = (
+				BA4841DD2DF44AA165939036 /* Check Pods Manifest.lock */,
 				D873EBE91B02FBE40047D312 /* Sources */,
 				D873EBEA1B02FBE40047D312 /* Frameworks */,
 				D873EBEB1B02FBE40047D312 /* Resources */,
+				03AAC2725355CB999608438E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,8 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D873EBFC1B02FBE40047D312 /* Main.storyboard in Resources */,
+				D87C10F81B03297600363AAD /* village.gif in Resources */,
 				D873EC011B02FBE40047D312 /* LaunchScreen.xib in Resources */,
+				D87C10F41B0323AA00363AAD /* storm.gif in Resources */,
 				D873EBFE1B02FBE40047D312 /* Images.xcassets in Resources */,
+				D87C10F61B03290500363AAD /* animated.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +251,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03AAC2725355CB999608438E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA4841DD2DF44AA165939036 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D873EBE91B02FBE40047D312 /* Sources */ = {
@@ -345,6 +416,7 @@
 		};
 		D873EC111B02FBE40047D312 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16379D3C060C80672A258C26 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GIF/Info.plist;
@@ -355,6 +427,7 @@
 		};
 		D873EC121B02FBE40047D312 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5748229BB89925D86E87FF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GIF/Info.plist;
@@ -416,6 +489,7 @@
 				D873EC121B02FBE40047D312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D873EC131B02FBE40047D312 /* Build configuration list for PBXNativeTarget "GIFTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +498,7 @@
 				D873EC151B02FBE40047D312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
